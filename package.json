@@ -23,6 +23,8 @@
   ],
   "directories": {},
   "devDependencies": {
+    "@types/d3-dispatch": "1.0.4",
+    "@types/d3-selection": "1.0.10",
     "babel-eslint": "7.1.1",
     "babel-plugin-external-helpers": "6.18.0",
     "babel-plugin-transform-object-assign": "6.22.0",
@@ -41,9 +43,7 @@
     "rollup": "0.41.4",
     "rollup-plugin-babel": "2.6.1",
     "rollup-plugin-node-resolve": "2.0.0",
-    "uglify-js": "2.8.1",
-    "@types/d3-dispatch": "1.0.4",
-    "@types/d3-selection": "1.0.10"
+    "uglify-js": "2.8.1"
   },
   "scripts": {
     "start": "npm run server & npm run watch",
@@ -85,8 +85,7 @@
     "d3-dispatch": "1.0.2",
     "d3-drag": "1.2.3",
     "d3-selection": "1.4.0",
-    "d3-shape": "1.0.4",
-    "d3-transition": "1.0.3"
+    "d3-shape": "1.0.4"
   },
   "homepage": "http://d3-annotation.susielu.com"
 }
